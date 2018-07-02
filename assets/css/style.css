@@ -39,6 +39,9 @@ h3 {
   line-height: 22px;
   border-bottom: 2px solid #eee;
 }
+.games {
+  height: 150px;
+}
 
 #main-container {
   padding-top: 130px;

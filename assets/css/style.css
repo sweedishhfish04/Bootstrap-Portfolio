@@ -39,8 +39,14 @@ h3 {
   line-height: 22px;
   border-bottom: 2px solid #eee;
 }
+.gameTags {
+  color: red;
+}
 .games {
   height: 150px;
+}
+.github {
+  text-decoration: underline blue; 
 }
 
 #main-container {

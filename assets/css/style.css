@@ -161,22 +161,6 @@ nav a:first-child {
   margin-right: 25px;
 }
 
-@media screen and (max-width: 640px) {
-  .work {
-    width: 100%;
-  }
-
-  #logo {
-    width: 100%;
-    display: block;
-  }
-
-  nav {
-    width: 80%;
-    margin: 10px auto;
-  }
-}
-
 footer {
   padding: 30px 0;
   clear: both;
@@ -221,7 +205,7 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: slategray;
+  color: white;
   cursor: pointer;
   background: orange;
   border: 2px solid;
@@ -243,4 +227,20 @@ input[type=submit] {
 
 a {
   color: navy;
+}
+
+@media screen and (max-width: 640px) {
+  .work {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+    display: block;
+  }
+
+  nav {
+    width: 80%;
+    margin: 10px auto;
+  }
 }
